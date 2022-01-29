@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MorseMD5Pipe } from './morse-md5.pipe';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PipeExample';
+
+  constructor() {
+    console.log(MorseMD5Pipe.prototype.transform('.-'));
+  }
 }
