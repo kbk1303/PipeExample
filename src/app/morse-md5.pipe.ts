@@ -1,7 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { PipeData } from './interfaces/pipe-data';
 import {Md5} from 'ts-md5/dist/md5';
-import { pipe } from 'rxjs';
 
 @Pipe({
   name: 'morseMD5'

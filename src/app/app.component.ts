@@ -11,5 +11,6 @@ export class AppComponent {
 
   constructor() {
     console.log(MorseMD5Pipe.prototype.transform('.-'));
+    console.log(MorseMD5Pipe.prototype.transform('A'));
   }
 }
