@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MorseMD5Pipe } from './morse-md5.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MorseMD5Pipe
   ],
   imports: [
     BrowserModule,
